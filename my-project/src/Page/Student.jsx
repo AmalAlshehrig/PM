@@ -65,9 +65,9 @@ function Student() {
             {ideas.map((item, index) => (
               <div key={index} className='border flex flex-col w-80 bg-[#F3F0CA] rounded-lg'>
                 <div>
-                  <h1 className='text-center font-bold text-xl'>{item.title}</h1>
-                  <p className='text-center text-sm'>{item.des}</p>
-                  <p className='text-center text-sm'>Status: {item.status}</p>
+                  <h1 className='text-center font-bold text-xl p-2'>{item.title}</h1>
+                  <p className='text-center text-sm p-4'>{item.des}</p>
+                  <p className='text-center text-sm p-2'>Status: {item.status}</p>
                   {item.status === 'Rejected' && (
   <p className='text-center text-sm text-red-500'>Reason for Rejection: {item.reason}</p>
 )}
