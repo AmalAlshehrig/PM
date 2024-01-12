@@ -11,7 +11,7 @@ function SignUp() {
     const handleSubmit=()=>{
         if(UserName === " "|| Email === " " || Password === " " || PhoneNumber === " "){
             alert("Please fill all fieds")
-        }else if(!/^[A-Z0-9._%+-]+@[TuwaiqAcademy]+\.[A-Z]{2,4}$/i.test(Email)){
+        }else if(!/^[A-Z0-9._%+-]+@[a-z]+\.[A-Z]{2,4}$/i.test(Email)){
             alert("Please enter valid email")
         }else if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(Password)){
             alert("Please enter valid password")
