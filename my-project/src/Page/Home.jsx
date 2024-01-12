@@ -39,7 +39,7 @@ function Home() {
         <div>
         <img
           src="https://static.vecteezy.com/system/resources/previews/002/744/860/original/project-management-illustration-vector.jpg"
-          className='max-w-full max-h-screen'
+          className='max-w-full max-h-min'
           alt="Project Management"
         />
         </div>
